@@ -13,7 +13,7 @@ try:
     driver.get("https://the-internet.herokuapp.com/upload")
     print("Đã mở trang File Upload thành công.")
 
-    # 3. Tạo một file tạm thời để test upload (hoặc bạn có thể trỏ tới đường dẫn file sẵn có trên máy)
+    # 3. Tạo một file tạm thời để test upload 
     test_file_path = os.path.abspath("test_upload.txt")
     with open(test_file_path, "w", encoding="utf-8") as f:
         f.write("Đây là nội dung kiểm thử tính năng upload file trong Selenium.")
